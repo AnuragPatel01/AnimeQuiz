@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;&display=swap");
+/* Styling the form container */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  /* background: linear-gradient(#040228 0%, #0075c7 40%);
+   */
+   background-color: black;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+  cursor: default;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 600;
+  padding: 6px 15px;
+  border-radius: 20px;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: #00a3b9;
+}
+
+.parallax {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.parallax img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.sec{
+    min-height: 100vh;
+    position: relative;
+    padding: 100px;
+    background: linear-gradient(#040228 0%, #0075c7 40%);
+    
+}
+
+.naruto {
+  height: 200px;
+  max-width: 450px;
+  margin-left: 35%;
+  margin-top: 15%;
+}
+/* naruto */
+#burjkhalifa{
+  height: 555px;
+  max-width: 505px;
+  margin-left: 33%;
+  margin-top: 9%;
+}
+/* Sasuke */
+#building{  
+  height: 525px;
+  max-width: 400px;
+  margin-left: 69%;
+  margin-top: 11%;
+}
+
+#kakashi{
+  height: 530px;
+  max-width: 210px;
+  margin-right: 40%;
+  margin-top: 10%;
+}
+#upper1{
+    height: 590px;
+    max-width: 330px;
+    margin-right: 40%;
+    margin-top: 5%;
+}
+
+#tanjiro{
+    height: 555px;
+  max-width: 450px;
+  margin-left: 68%;
+  margin-top: 8%;
+}
+
+#demon{
+    height: 200px;
+    max-width: 450px;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+.sec h2{
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.sec h2:nth-child(2) {
+  font-size: 2em;
+
+}
+
+.sec p {
+  font-size: 1em;
+  color: #fff;
+  font-weight: 300;
+
+
+}
+
+.sec img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+#design{
+height: 100%;
+max-width: 50%;
+}
+
+.form-container {
+width: 500px;
+height: 500px;
+margin: 0 auto;
+padding: 20px;
+/* background-color: #f0f0f0; */
+border: 1px solid #ccc;
+border-radius: 5px;
+color: white;
+
+/* justify-content: space-between; */
+}
+
+
+/* Styling for the submit button */
+.submit-button {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.submit-button:hover {
+background-color: #0056b3;
+}
+
+.index-button {
+    margin-top: 100px;
+    border: 0.6px solid white;
+    background-color: transparent;
+    color: rgb(165, 80, 144);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 35px 40px;
+    border-radius: 30px;
+    hover{box-shadow: 2px 2px 4px white;};
+  }
+
+  .index-button:hover {
+    cursor:pointer;
+    
+    box-shadow: 2px 2px 4px white;
+    color: rgb(248, 12, 209);
+  }

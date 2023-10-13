@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h2 class="logo">Anime</h2>
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Places</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <section class="parallax">
+      <img src="stars.png" id="stars" />
+      <img class="naruto" src="./img2/name.png" id="dubaitext" />
+      <img src="./img2/po.png" id="burjkhalifa" />
+      <img src="./img2/saspo.png" id="building" />
+      <img src="./img2/kaka.png" id="kakashi" />
+    </section>
+
+    <section class="sec">
+      <!-- <img src="design.png" id="design"> -->
+      <img src="stars.png" id="stars" />
+      <img src="tan.png" id="tanjiro" />
+      <img src="up1.png" id="upper1" />
+      <img src="demon.png" id="demon" />
+      <!-- <h2>Naruto</h2> -->
+      <!-- <h2>Parallax Scrolling Website</h2> -->
+      <div class="container">
+        <form
+          class="form-container"
+          action="https://docs.google.com/forms/d/e/1FAIpQLScp1gHi6HkF_bpnuTIjSu9s4MVzUhrhpTO8a_ixl_nhBMxtLw/formResponse"
+          method="post"
+        >
+          <label for="entry.137887">What is your name</label>
+          <input type="text" name="entry.137887" /><br />
+
+          <label for="entry.1954889853">What is your age group?</label>
+          <!-- <label for="age-group">What is your age group?</label> -->
+          <div id="age-group">
+            <input
+              type="radio"
+              id="under-18"
+              name="entry.1954889853"
+              value="Under 18"
+            />
+            <label for="under-18">Under 18</label>
+
+            <input
+              type="radio"
+              id="18-24"
+              name="entry.1954889853"
+              value="18-24"
+            />
+            <label for="18-24">18-24</label>
+
+            <input
+              type="radio"
+              id="25-34"
+              name="entry.1954889853"
+              value="25-34"
+            />
+            <label for="25-34">25-34</label>
+
+            <input
+              type="radio"
+              id="above-35"
+              name="entry.1954889853"
+              value="Above 35"
+            />
+            <label for="above-35">Above 35</label>
+          </div>
+
+          <label for="entry.1525239106">What is your gender?</label>
+          <div id="gender">
+            <input
+              type="radio"
+              id="male"
+              name="entry.1525239106"
+              value="Male"
+            />
+            <label for="male">Male</label>
+
+            <input
+              type="radio"
+              id="female"
+              name="entry.1525239106"
+              value="Female"
+            />
+            <label for="female">Female</label>
+
+            <input
+              type="radio"
+              id="prefer-not-to-say"
+              name="entry.1525239106"
+              value="Prefer not to say"
+            />
+            <label for="prefer-not-to-say">Prefer not to say</label>
+          </div>
+
+          <!-- <input type="text" name="entry.1525239106"/><br> -->
+          <label for="entry.88137047">What country are you located in?</label>
+          <input type="text" name="entry.88137047" /><br />
+
+          <label for="entry.880246386"
+            >Have you ever visited a planetarium or observatory?</label
+          >
+          <div id="planetarium-visit">
+            <input
+              type="radio"
+              id="visited-yes"
+              name="entry.880246386"
+              value="Yes"
+            />
+            <label for="visited-yes">Yes</label>
+
+            <input
+              type="radio"
+              id="visited-no"
+              name="entry.880246386"
+              value="No"
+            />
+            <label for="visited-no">No</label>
+          </div>
+
+          <label for="entry.807922846"
+            >How often do you stargaze or observe celestial events like meteor
+            showers or eclipses?</label
+          >
+          <div id="stargazing-frequency">
+            <input
+              type="radio"
+              id="regularly"
+              name="entry.807922846"
+              value="Regularly"
+            />
+            <label for="regularly">Regularly</label>
+
+            <input
+              type="radio"
+              id="occasionally"
+              name="entry.807922846"
+              value="Occasionally"
+            />
+            <label for="occasionally">Occasionally</label>
+
+            <input
+              type="radio"
+              id="rarely"
+              name="entry.807922846"
+              value="Rarely"
+            />
+            <label for="rarely">Rarely</label>
+
+            <input
+              type="radio"
+              id="never"
+              name="entry.807922846"
+              value="Never"
+            />
+            <label for="never">Never</label>
+          </div>
+
+          <label for="entry.305116515"
+            >Which planet in our solar system is your favorite?</label
+          >
+          <input type="text" name="entry.305116515" /><br />
+
+          <label for="entry.1330694257"
+            >Have you ever seen a shooting star (meteor) in the night
+            sky?</label
+          >
+          <div id="shooting-star-experience">
+            <input
+              type="radio"
+              id="seen-yes"
+              name="entry.1330694257"
+              value="Yes"
+            />
+            <label for="seen-yes">Yes</label>
+
+            <input
+              type="radio"
+              id="seen-no"
+              name="entry.1330694257"
+              value="No"
+            />
+            <label for="seen-no">No</label>
+
+            <input
+              type="radio"
+              id="seen-maybe"
+              name="entry.1330694257"
+              value="Maybe"
+            />
+            <label for="seen-maybe">Maybe</label>
+          </div>
+
+          <label for="entry.1422048444"
+            >How do you stay informed about space and astronomy news?</label
+          >
+          <div id="astronomy-news-source">
+            <input
+              type="radio"
+              id="science-websites"
+              name="entry.1422048444"
+              value="Science websites"
+            />
+            <label for="science-websites">Science websites</label>
+
+            <input
+              type="radio"
+              id="astronomy-magazines"
+              name="entry.1422048444"
+              value="Astronomy magazines"
+            />
+            <label for="astronomy-magazines">Astronomy magazines</label>
+
+            <input
+              type="radio"
+              id="social-media"
+              name="entry.1422048444"
+              value="Social media"
+            />
+            <label for="social-media">Social media</label>
+
+            <input
+              type="radio"
+              id="tv-documentaries"
+              name="entry.1422048444"
+              value="Television documentaries"
+            />
+            <label for="tv-documentaries">Television documentaries</label>
+          </div>
+
+          <button class="submit-button" type="submit">Submit Form</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="sec">
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nam
+        temporibus, quos et aliquam distinctio aut modi facere nemo nobis
+        reiciendis ipsum dolorum rerum autem id consectetur fuga voluptatum quo
+        illum dicta dolor consequuntur eveniet recusandae libero. Autem adipisci
+        quo eaque sapiente libero beatae id ea voluptas consequuntur nihil
+        asperiores, in officia magni minus atque incidunt quae dicta? Nostrum
+        provident repudiandae consectetur numquam dolore, asperiores esse odio
+        officia facere ab quidem in error. Facilis earum sapiente laudantium
+        dolores consectetur odit, incidunt accusantium pariatur, iure eum illum
+        corrupti? Voluptatum error animi ex placeat, pariatur neque a. Autem
+        rerum necessitatibus sed ratione rem possimus mollitia vitae impedit
+        odit esse qui quisquam culpa cum in adipisci recusandae, eveniet saepe,
+        repellendus obcaecati nihil repudiandae aspernatur corporis! Officia
+        dicta nesciunt fugit dolor quo ipsa hic!<br><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nam
+        temporibus, quos et aliquam distinctio aut modi facere nemo nobis
+        reiciendis ipsum dolorum rerum autem id consectetur fuga voluptatum quo
+        illum dicta dolor consequuntur eveniet recusandae libero. Autem adipisci
+        quo eaque sapiente libero beatae id ea voluptas consequuntur nihil
+        asperiores, in officia magni minus atque incidunt quae dicta? Nostrum
+        provident repudiandae consectetur numquam dolore, asperiores esse odio
+        officia facere ab quidem in error. Facilis earum sapiente laudantium
+        dolores consectetur odit, incidunt accusantium pariatur, iure eum illum
+        corrupti? Voluptatum error animi ex placeat, pariatur neque a. Autem
+        rerum necessitatibus sed ratione rem possimus mollitia vitae impedit
+        odit esse qui quisquam culpa cum in adipisci recusandae, eveniet saepe,
+        repellendus obcaecati nihil repudiandae aspernatur corporis! Officia
+        dicta nesciunt fugit dolor quo ipsa hic!<br><br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit nam
+        temporibus, quos et aliquam distinctio aut modi facere nemo nobis
+        reiciendis ipsum dolorum rerum autem id consectetur fuga voluptatum quo
+        illum dicta dolor consequuntur eveniet recusandae libero. Autem adipisci
+        quo eaque sapiente libero beatae id ea voluptas consequuntur nihil
+        asperiores, in officia magni minus atque incidunt quae dicta? Nostrum
+        provident repudiandae consectetur numquam dolore, asperiores esse odio
+        officia facere ab quidem in error. Facilis earum sapiente laudantium
+        dolores consectetur odit, incidunt accusantium pariatur, iure eum illum
+        corrupti? Voluptatum error animi ex placeat, pariatur neque a. Autem
+        rerum necessitatibus sed ratione rem possimus mollitia vitae impedit
+        odit esse qui quisquam culpa cum in adipisci recusandae, eveniet saepe,
+        repellendus obcaecati nihil repudiandae aspernatur corporis! Officia
+        dicta nesciunt fugit dolor quo ipsa hic!<br><br>
+      </p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
